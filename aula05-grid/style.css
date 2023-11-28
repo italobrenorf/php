@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: yellow;
+    height: 600px;
+    width: auto;
+    display: grid; 
+    grid-template-areas: "menuE titulo titulo"
+                         "menuE conteudo conteudo"
+                         "menuE rodape rodape";
+    grid-template-rows: 50px 1fr 90px;
+    grid-template-columns: 100px 1fr 100px;
+}
+
+.titulo {
+    background-color: red;
+    grid-area: titulo;
+}
+
+.menuE {
+    background-color: brown;
+    grid-area: menuE;
+}
+
+.conteudo {
+    background-color: green;
+    grid-area: conteudo;
+}
+
+.rodape {
+    background-color: orange;
+    grid-area: rodape;
+}

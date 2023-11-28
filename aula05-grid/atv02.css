@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: rgb(50, 50, 95);
+    height: 661px;
+    width: auto;
+    display: grid;
+    grid-template-areas: "img1 titulo img2"
+                         "menuE conteudo menuD"
+                         "rodape rodape rodape";
+    grid-template-rows: 100px 1fr 90px;
+    grid-template-columns: 100px 1fr 100px;
+}
+
+.img1 {
+    margin-left: 15px;
+    margin-top: 15px;
+    grid-area: img1;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-family: 'Nova Square', sans-serif;
+    margin-top: 30px;
+    grid-area: titulo;
+}
+
+.img2 {
+    margin-left: 15px;
+    margin-top: 15px;
+    grid-area: img2;
+}
+
+.menuE {
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Nova Square', sans-serif;
+    grid-area: menuE;
+}
+
+.conteudo {
+    padding-top: 15px;
+    background-color: rgb(33, 33, 119);
+    color: white;
+    text-align: center;
+    font-family: 'Nova Square', sans-serif;
+    grid-area: conteudo;
+}
+
+.menuD {
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Nova Square', sans-serif;
+    grid-area: menuD;
+}
+
+.rodape {
+    background-color: rgb(82, 82, 82);
+    margin-left: 625px;
+    color: white;
+    font-family: 'Nova Square', sans-serif;
+    grid: rodape;
+    margin-top: 30px;
+}
