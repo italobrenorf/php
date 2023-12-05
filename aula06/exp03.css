@@ -1,0 +1,59 @@
+.box {
+    margin-top: 40px;
+    margin-left: 25px;
+    background-color: blue;
+    display: grid;
+    width: 307px;
+    grid-template-areas: "div1 div2 div3"
+                         "div4 div5 div6";
+    grid-template-rows: 37px 37px;
+    grid-template-columns: 32px 32px 32px;
+    gap: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-around;
+}
+
+
+.div1 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div1;
+}
+
+.div2 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div2;
+}
+
+.div3 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div3;
+}
+
+.div4 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div4;
+}
+
+.div5 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div5;
+}
+
+.div6 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div6;
+}

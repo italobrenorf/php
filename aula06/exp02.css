@@ -1,0 +1,80 @@
+.box {
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: black;
+    display: grid;
+    width: 300px;
+    grid-template-areas: "div1 div2 div3"
+                         "div4 div5 div6"
+                         "div7 div8 div9";
+    grid-template-rows: 37px 37px 37px;
+    grid-template-columns: 97px 97px 97px;
+    gap: 2px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: blue 5px solid;
+}
+
+.div1 {
+   text-align: center;
+   background-color: rgb(150, 203, 255);
+   padding-top: 10px;
+   grid-area: div1;
+}
+
+.div2 {
+    text-align: center; 
+    background-color: rgb(150, 203, 255); 
+    padding-top: 10px;
+    grid-area: div2;
+}
+
+.div3 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div3;
+}
+
+.div4 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div4;
+}
+
+.div5 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div5;
+}
+
+.div6 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div6;
+}
+
+.div7 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div7;
+}
+
+.div8 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div8;
+}
+
+.div9 {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: div9;
+}
