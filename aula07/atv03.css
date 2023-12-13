@@ -1,0 +1,150 @@
+.box{
+    height: 720px;
+ background-color: blue;
+ display: grid;
+ grid-template-areas: "topo topo topo"
+                      "ce cp cd"
+                      "rodape rodape rodape";
+grid-template-columns: 150px 1fr 300px;
+grid-template-rows: 120px 1fr 120px;
+}
+
+.topo {
+   display: grid;
+   grid-template-areas: "divp1 divp2 divp3 divp4";
+   grid-column-start: 1;
+   grid-column-end: 4;
+}
+
+.ce {
+    text-align: center;
+    background-color: greenyellow;
+    padding-top: 10px;
+    grid-area: ce;
+    font-size: 50px;
+}
+
+.cp {
+    text-align: center;
+    background-color: red;
+    padding-top: 10px;
+    grid-area: cp;
+    font-size: 50px;
+}
+
+.cd {
+    text-align: center;
+    background-color: greenyellow;
+    grid-area: cd;
+    font-size: 50px;
+    display: grid;
+    grid-template-areas: "p1 p2"
+                         "p3 p4"
+                         "p5 p6"
+                         "p7 p8";
+    gap: 5px;
+}
+
+.rodape {
+    text-align: center;
+    background-color: rgb(150, 203, 255);
+    padding-top: 10px;
+    grid-area: rodape;
+    font-size: 50px;
+}
+
+.divp1 {
+    text-align: center;
+    background-color: violet;
+    padding-top: 10px;
+    grid-area: divp1;
+    font-size: 50px;
+}
+
+.divp2 {
+    text-align: center;
+    background-color: aquamarine;
+    padding-top: 10px;
+    grid-area: divp2;
+    font-size: 50px;
+}
+
+.divp3 {
+    text-align: center;
+    background-color: brown;
+    padding-top: 10px;
+    grid-area: divp3;
+    font-size: 50px;
+}
+
+.divp4 {
+    text-align: center;
+    background-color: rgb(255, 0, 191);
+    padding-top: 10px;
+    grid-area: divp4;
+    font-size: 50px;
+}
+
+.p1 {
+    text-align: center;
+    background-color: yellow;
+    grid-area: p1;
+    font-size: 50px; 
+}
+
+.p2 {
+    text-align: center;
+    background-color: yellow;
+    grid-area: p2;
+    font-size: 50px; 
+}
+
+.p3 {
+    text-align: center;
+    background-color: yellow;
+    grid-area: p3;
+    font-size: 50px; 
+}
+
+.p4 {
+    text-align: center;
+    background-color: yellow;
+    grid-area: p4;
+    font-size: 50px; 
+}
+
+.p5 {
+    text-align: center;
+    background-color: yellow;
+    grid-area: p5;
+    font-size: 50px; 
+}
+
+.p6 {
+    text-align: center;
+    background-color: yellow;
+    grid-area: p6;
+    font-size: 50px; 
+}
+
+.p7 {
+    text-align: center;
+    background-color: yellow;
+    grid-area: p7;
+    font-size: 50px; 
+}
+
+.p8 {
+    text-align: center;
+    background-color: yellow;
+    grid-area: p8;
+    font-size: 50px; 
+}
+
+.p1 p {
+    background-color: darkorchid;
+}
+
+.p6 p {
+    background-color: aqua;
+}
